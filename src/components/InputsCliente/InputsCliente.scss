@@ -1,0 +1,15 @@
+.form-inputs {
+    margin-top: 38px;
+    margin-bottom: 38px;
+    div{
+        display: flex;
+        justify-content: flex-start;
+        height: 30px;
+        width: 400px;
+        margin-top: 8px;
+        margin-left: 100px;
+        label {
+            width: 150px;
+        }
+    }
+}

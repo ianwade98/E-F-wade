@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.navbar-custom {
+    min-height: 50px;
+}
+.bg-gray {
+    background-color: black;
+}
+
+#textos__navbar {
+    font-family: inter;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-toggler-icon-blanco {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    background-image: url(../../../images/Untitled.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-toggler-border {
+    border: none;
+}
+
+nav {
+    a{
+        height: auto;
+        margin-right: 15px;
+        &:hover{
+            background-color: #252525;
+        }
+    }
+}
+
+
